@@ -1,5 +1,6 @@
 package thirdPackage;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class firstClassThirdPackage {
@@ -9,9 +10,11 @@ public class firstClassThirdPackage {
 		System.out.println("First Test in first Class of Third Package");
 	}
 	
+	@Parameters( {"URL"} )
 	@Test
-	public void secondTestFirstClassThirdPackage() {
+	public void secondTestFirstClassThirdPackage(String URL) {
 		System.out.println("second Test in first Class of Third Package");
+		System.out.println( "This is the URL parameter " + URL);
 	}
 	
 	@Test

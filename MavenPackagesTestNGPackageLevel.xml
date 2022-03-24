@@ -2,8 +2,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="MavenPackages">
   <test thread-count="5" name="TestSuitePackageLevel">
+<groups>
+<run> 
+<include name = "Smoke"/>
+</run></groups>
  <packages>
 <package name="firstTestPackage"/><!-- -->
+<package name = "secondTestPackage"/>
+<package name = "thirdPackage"/>
 </packages>
   </test> <!-- TestSuite -->
 </suite> <!-- MavenPackages -->

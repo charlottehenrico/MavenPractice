@@ -3,6 +3,7 @@ package secondTestPackage;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -34,7 +35,12 @@ public class firstClassSecondPackage {
 		System.out.println("Run this before each method");
 	}
 	
-	@Test
+	@BeforeGroups
+	public void DoThisBeforeGroups() {
+		System.out.println ("This happens before each group");
+	}
+	
+	@Test (groups = {"Smoke"})
 	public void firstTestFirstClassSecondPackage() {
 		System.out.println("First Test in first Class of Second Package");
 	}
@@ -44,9 +50,9 @@ public class firstClassSecondPackage {
 		System.out.println("Run after each method");
 	}
 	
-	@Test
+	@Test (enabled = false)
 	public void secondTestFirstClassSecondPackage() {
-		System.out.println("second Test in first Class of Second Package");
+		System.out.println("Test that should be excluded");
 	}
 	
 	@Test

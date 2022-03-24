@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class firstTestNG {
 	
-	@Test
+	@Test (groups = {"Smoke"})
 	public void first() {
 		System.out.println("First test in first class in first package");
 	}
