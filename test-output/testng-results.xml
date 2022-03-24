@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-24T16:53:13 SAST" name="TestNGAnnotationsBeforeAfter" finished-at="2022-03-24T16:53:13 SAST" duration-ms="130">
+    <groups>
+    </groups>
+    <test started-at="2022-03-24T16:53:13 SAST" name="Before and After" finished-at="2022-03-24T16:53:13 SAST" duration-ms="130">
+      <class name="secondTestPackage.secondClassSecondPackage">
+        <test-method signature="firstTestSecondclassSecondPackage()[pri:0, instance:secondTestPackage.secondClassSecondPackage@1c93084c]" started-at="2022-03-24T16:53:13 SAST" name="firstTestSecondclassSecondPackage" finished-at="2022-03-24T16:53:13 SAST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestSecondclassSecondPackage -->
+        <test-method signature="fourthTestSecondClassSecondPackage()[pri:0, instance:secondTestPackage.secondClassSecondPackage@1c93084c]" started-at="2022-03-24T16:53:13 SAST" name="fourthTestSecondClassSecondPackage" finished-at="2022-03-24T16:53:13 SAST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTestSecondClassSecondPackage -->
+        <test-method signature="secondTestSecondClassSecondPackage()[pri:0, instance:secondTestPackage.secondClassSecondPackage@1c93084c]" started-at="2022-03-24T16:53:13 SAST" name="secondTestSecondClassSecondPackage" finished-at="2022-03-24T16:53:13 SAST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestSecondClassSecondPackage -->
+        <test-method signature="thirdTestSecondClassSecondPackage()[pri:0, instance:secondTestPackage.secondClassSecondPackage@1c93084c]" started-at="2022-03-24T16:53:13 SAST" name="thirdTestSecondClassSecondPackage" finished-at="2022-03-24T16:53:13 SAST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestSecondClassSecondPackage -->
+      </class> <!-- secondTestPackage.secondClassSecondPackage -->
+      <class name="firstTestPackage.firstTestNG">
+        <test-method signature="first()[pri:0, instance:firstTestPackage.firstTestNG@31368b99]" started-at="2022-03-24T16:53:13 SAST" name="first" finished-at="2022-03-24T16:53:13 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method signature="second()[pri:0, instance:firstTestPackage.firstTestNG@31368b99]" started-at="2022-03-24T16:53:13 SAST" name="second" finished-at="2022-03-24T16:53:13 SAST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+      </class> <!-- firstTestPackage.firstTestNG -->
+      <class name="secondTestPackage.firstClassSecondPackage">
+        <test-method is-config="true" signature="GlobalVariables()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="GlobalVariables" finished-at="2022-03-24T16:53:13 SAST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GlobalVariables -->
+        <test-method is-config="true" signature="RestoreDB()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="RestoreDB" finished-at="2022-03-24T16:53:13 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestoreDB -->
+        <test-method is-config="true" signature="checkHealth()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="checkHealth" finished-at="2022-03-24T16:53:13 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHealth -->
+        <test-method signature="firstTestFirstClassSecondPackage()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="firstTestFirstClassSecondPackage" finished-at="2022-03-24T16:53:13 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestFirstClassSecondPackage -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="AfterMethod" finished-at="2022-03-24T16:53:13 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="fourthTestSecondPackage()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="fourthTestSecondPackage" finished-at="2022-03-24T16:53:13 SAST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTestSecondPackage -->
+        <test-method is-config="true" signature="checkHealth()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="checkHealth" finished-at="2022-03-24T16:53:13 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHealth -->
+        <test-method is-config="true" signature="checkHealth()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="checkHealth" finished-at="2022-03-24T16:53:13 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHealth -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="AfterMethod" finished-at="2022-03-24T16:53:13 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="secondTestFirstClassSecondPackage()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="secondTestFirstClassSecondPackage" finished-at="2022-03-24T16:53:13 SAST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestFirstClassSecondPackage -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="AfterMethod" finished-at="2022-03-24T16:53:13 SAST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="thirdTestFirstClassSecondPackage()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="thirdTestFirstClassSecondPackage" finished-at="2022-03-24T16:53:13 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestFirstClassSecondPackage -->
+        <test-method is-config="true" signature="checkHealth()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="checkHealth" finished-at="2022-03-24T16:53:13 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHealth -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="AfterMethod" finished-at="2022-03-24T16:53:13 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="CleanDB()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="CleanDB" finished-at="2022-03-24T16:53:13 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanDB -->
+        <test-method is-config="true" signature="GlobalVariablesReset()[pri:0, instance:secondTestPackage.firstClassSecondPackage@50b472aa]" started-at="2022-03-24T16:53:13 SAST" name="GlobalVariablesReset" finished-at="2022-03-24T16:53:13 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GlobalVariablesReset -->
+      </class> <!-- secondTestPackage.firstClassSecondPackage -->
+      <class name="firstTestPackage.secondTestNG">
+        <test-method signature="secondClassFirstTest()[pri:0, instance:firstTestPackage.secondTestNG@1725dc0f]" started-at="2022-03-24T16:53:13 SAST" name="secondClassFirstTest" finished-at="2022-03-24T16:53:13 SAST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondClassFirstTest -->
+      </class> <!-- firstTestPackage.secondTestNG -->
+    </test> <!-- Before and After -->
+  </suite> <!-- TestNGAnnotationsBeforeAfter -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MavenPackages">
+  <test thread-count="5" name="TestSuiteFirstPackageOptionA">
+    <classes>
+      <class name="firstTestPackage.firstTestNG"/>
+    </classes>
+  </test> <!-- TestSuite -->
+ <test thread-count="5" name="TestSuiteFirstPackageOptionB">
+    <classes>
+      <class name="firstTestPackage.secondTestNG"/>
+    </classes>
+  </test> <!-- TestSuite -->
+ <test thread-count="5" name="TestSuiteSecondPackage">
+   <classes>  
+		<class name="secondTestPackage.secondClassSecondPackage">
+<methods>
+<exclude name = "firstTestSecondclassSecond*"/>
+</methods>
+</class>
+    </classes> 
+  </test> <!-- TestSuite -->
+ <test thread-count="5" name="TestSuiteThirdPackage">
+    <classes>  
+		<class name="thirdPackage.firstClassThirdPackage">
+<methods>
+<include name = "firstTestFirstClassThirdPackage"/>
+</methods>
+</class>
+    </classes>
+  </test> <!-- TestSuite -->
+</suite> <!-- MavenPackages -->
