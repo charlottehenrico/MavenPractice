@@ -1,5 +1,7 @@
 package secondTestPackage;
 
+import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -20,9 +22,20 @@ public class firstClassSecondPackage {
 		System.out.println("This method should run after all test suites");
 	}
 	
+	@Test
+	public void skippedTest() {
+		throw new SkipException ("This is the SkippedTest method" );
+	
+	}
+	
+	@Test
+	public void failedTest() {
+		Assert.assertTrue(false);
+	}
 	@BeforeTest
 	public void RestoreDB () {
 		System.out.println("This method should run before all tests in a test suite");
+		
 	}
 	
 	@AfterTest
